@@ -1,0 +1,74 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch {
+  background-color: #222;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#display {
+  font-size: 4em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  transition: background-color 0.3s, transform 0.3s;
+  background-color: #4caf50;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.controls button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+#resetBtn {
+  background-color: #f44336;
+}
+
+#lapBtn {
+  background-color: #008cba;
+}
+
+#lapTimes {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#lapTimes li {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+#lapTimes li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
